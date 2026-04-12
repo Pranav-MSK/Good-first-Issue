@@ -96,6 +96,13 @@ That's it! Wait for your PR to be reviewed and merged.
 
 ---
 
+## Beginner Tips 
+- Start with small contributions like fixing typos
+- Always read CONTRIBUTING.md befor making a PR
+- Keep ypur commits clear and simple
+
+---
+
 <div align="center">
 
 **Congratulations on your first contribution!** 🎉
