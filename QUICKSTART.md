@@ -82,6 +82,7 @@ That's it! Wait for your PR to be reviewed and merged.
 
 **Need more help?**
 → Check [README.md](README.md) for detailed step-by-step instructions
+→ See [FAQ.md](FAQ.md) for common questions
 → [Open an issue](../../issues) if you're still stuck
 
 ---
