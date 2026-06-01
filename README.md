@@ -11,7 +11,7 @@
 
 _This project exists for one reason: to help YOU make your first contribution._
 
-[Detailed Guide](#-detailed-step-by-step-guide) • [Help](#-stuck-get-help) • [What's Next](#-whats-next)
+[Detailed Guide](#-detailed-step-by-step-guide) **|** [Help](#-stuck-get-help) **|** [What's Next](#-whats-next)
 
 </div>
 
@@ -196,12 +196,12 @@ Your Pull Request will be reviewed and merged soon. Once merged, your name will 
 
 **These amazing people have completed their first contribution!** 🎯
 
-- [Aditya Singh Rathore](https://github.com/Adez017)
 - [Adit](https://github.com/adityarathore17112002-rgb)
 - [Adithya S](https://github.com/Aditya-SRK)
-- [Rita Huang](https://github.com/yuhruh)
-- [Mudradi Pranavi](https://github.com/Pranavi-1125)
+- [Aditya Singh Rathore](https://github.com/Adez017)
 - [Janvee](https://github.com/Janvee31)
+- [Mudradi Pranavi](https://github.com/Pranavi-1125)
+- [Rita Huang](https://github.com/yuhruh)
 - [Yash Singhal](https://github.com/yashsinghal1234)
 
 _Your name will appear here once your PR is merged!_
