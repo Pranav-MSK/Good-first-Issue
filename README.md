@@ -203,6 +203,7 @@ Your Pull Request will be reviewed and merged soon. Once merged, your name will 
 - [Mudradi Pranavi](https://github.com/Pranavi-1125)
 - [Rita Huang](https://github.com/yuhruh)
 - [Yash Singhal](https://github.com/yashsinghal1234)
+- [Parth Bhuptani](https://github.com/ParthBhuptani)
 
 _Your name will appear here once your PR is merged!_
 
