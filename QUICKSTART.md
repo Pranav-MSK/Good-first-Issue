@@ -302,10 +302,9 @@ You should see your PR with a number (e.g., `#42`).
 ---
 
 ## Beginner Tips
-
-* Start with small contributions like fixing typos
-* Always read `CONTRIBUTING.md` before making a PR
-* Keep your commits clear and simple
+- Start with small contributions like fixing typos
+- Always read CONTRIBUTING.md before making a PR
+- Keep your commits clear and simple
 
 ---
 
