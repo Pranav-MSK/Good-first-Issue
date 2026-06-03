@@ -18,12 +18,13 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build contributor tier table
+      - name: Build and update tier tables
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
 
+            // Fetch all merged PRs
             const pulls = await github.paginate(github.rest.pulls.list, {
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -31,14 +32,16 @@ jobs:
               per_page: 100,
             });
 
+            // Count merged PRs per contributor
             const counts = {};
             for (const pr of pulls.filter(p => p.merged_at)) {
               const login = pr.user.login;
               counts[login] = (counts[login] || 0) + 1;
             }
 
+            // Sort each tier by PR count descending
             const champions = [], regulars = [], timers = [];
-            for (const [login, count] of Object.entries(counts)) {
+            for (const [login, count] of Object.entries(counts).sort((a, b) => b[1] - a[1])) {
               const row = `| [${login}](https://github.com/${login}) | ${count} |`;
               if (count >= 5)      champions.push(row);
               else if (count >= 2) regulars.push(row);
@@ -46,51 +49,71 @@ jobs:
             }
 
             const empty = (msg) => `| _${msg}_ | -- |`;
-            const section = (rows, msg) => rows.length ? rows.join('\n') : empty(msg);
+            const table = (rows, msg) =>
+              ['| Contributor | PRs Merged |', '|-------------|------------|',
+               rows.length ? rows.join('\n') : empty(msg)].join('\n');
+
+            // ── Update README.md using comment anchors ──────────────────────
+            let readme = fs.readFileSync('README.md', 'utf8');
+
+            const replace = (content, start, end, newTable) => {
+              const re = new RegExp(`(<!-- ${start} -->)[\\s\\S]*?(<!-- ${end} -->)`, 'm');
+              return content.replace(re, `<!-- ${start} -->\n${newTable}\n<!-- ${end} -->`);
+            };
+
+            readme = replace(readme, 'CHAMPIONS-START', 'CHAMPIONS-END',
+              table(champions, 'Be the first Champion!'));
+            readme = replace(readme, 'REGULARS-START', 'REGULARS-END',
+              table(regulars, 'Keep contributing to unlock this tier!'));
+            readme = replace(readme, 'TIMERS-START', 'TIMERS-END',
+              table(timers, 'No first-timers yet -- be the first!'));
+
+            fs.writeFileSync('README.md', readme, 'utf8');
+
+            // ── Update CONTRIBUTORS.md ──────────────────────────────────────
+            const trophy  = '\uD83C\uDFC6';
+            const gold    = '\uD83E\uDD47';
+            const silver  = '\uD83E\uDD48';
+            const bronze  = '\uD83E\uDD49';
+            const bulb    = '\uD83D\uDCA1';
 
             const lines = [
-              '# \uD83C\uDFC6 Contributors Hall of Fame',
+              `# ${trophy} Contributors Hall of Fame`,
               '',
               '> Auto-updated on every merged PR. Tiers based on total merged contributions.',
               '',
               '---',
               '',
-              '## \uD83E\uDD47 Champions -- 5+ PRs',
+              `## ${gold} Champions -- 5+ PRs`,
               '',
-              '| Contributor | PRs Merged |',
-              '|-------------|------------|',
-              section(champions, 'Be the first Champion!'),
+              table(champions, 'Be the first Champion!'),
               '',
               '---',
               '',
-              '## \uD83E\uDD48 Regulars -- 2-4 PRs',
+              `## ${silver} Regulars -- 2-4 PRs`,
               '',
-              '| Contributor | PRs Merged |',
-              '|-------------|------------|',
-              section(regulars, 'Keep contributing to unlock this tier!'),
+              table(regulars, 'Keep contributing to unlock this tier!'),
               '',
               '---',
               '',
-              '## \uD83E\uDD49 First Timers -- 1 PR',
+              `## ${bronze} First Timers -- 1 PR`,
               '',
-              '| Contributor | PRs Merged |',
-              '|-------------|------------|',
-              section(timers, 'No first-timers yet -- be the first!'),
+              table(timers, 'No first-timers yet -- be the first!'),
               '',
               '---',
               '',
-              '> \uD83D\uDCA1 **How to move up:** Every merged PR counts. Keep contributing to climb the tiers!',
+              `> ${bulb} **How to move up:** Every merged PR counts. Keep contributing to climb the tiers!`,
               '>',
               '> This file is automatically maintained by the [Badge Tier workflow](.github/workflows/badge-tier.yml).',
             ];
 
             fs.writeFileSync('CONTRIBUTORS.md', lines.join('\n') + '\n', 'utf8');
-            console.log('CONTRIBUTORS.md updated successfully');
+            console.log('README.md and CONTRIBUTORS.md updated successfully');
 
-      - name: Commit updated CONTRIBUTORS.md
+      - name: Commit updated files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add CONTRIBUTORS.md
+          git add README.md CONTRIBUTORS.md
           git diff --cached --quiet || git commit -m "chore: update contributor badge tiers [skip ci]"
           git push
