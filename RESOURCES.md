@@ -30,8 +30,8 @@ Curated resources to help you continue your open source journey after your first
 ### 📖 Written Guides
 
 **Essential Reading:**
-- [GitHub Git Handbook](https://guides.github.com/introduction/git-handbook/) - Official, beginner-friendly
-- [Git - The Simple Guide](http://rogerdudler.github.io/git-guide/) - No deep theory, just basics
+- [GitHub Git Handbook](https://docs.github.com/en/get-started/using-git/about-git) - Official, beginner-friendly
+- [Git - The Simple Guide](https://rogerdudler.github.io/git-guide/) - No deep theory, just basics
 - [Learn Git Branching](https://learngitbranching.js.org/) - Interactive visual tutorial
 
 **Official Documentation:**
@@ -39,16 +39,15 @@ Curated resources to help you continue your open source journey after your first
 - [Pro Git Book](https://git-scm.com/book/en/v2) - Free, complete reference
 
 **Quick References:**
-- [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) - PDF download
-- [GitHub Flow Guide](https://guides.github.com/introduction/flow/) - Understanding the workflow
+- [Git Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf) - PDF download
+- [GitHub Flow Guide](https://docs.github.com/en/get-started/using-github/github-flow) - Official workflow mapping
 - [Oh Shit, Git!?!](https://ohshitgit.com/) - How to fix common mistakes
 
 ### 🎮 Interactive Learning
 
 - [Learn Git Branching](https://learngitbranching.js.org/) - Game-like tutorial
-- [GitHub Learning Lab](https://lab.github.com/) - Hands-on GitHub courses
+- [GitHub Skills](https://skills.github.com/) - Modern interactive courses
 - [Visualizing Git](https://git-school.github.io/visualizing-git/) - See what Git commands do
-- [GitHub Skills](https://skills.github.com/) - Free interactive courses
 
 ---
 
@@ -59,7 +58,7 @@ Curated resources to help you continue your open source journey after your first
 **Read First:**
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) - Comprehensive guide
 - [First Timers Only](https://www.firsttimersonly.com/) - Philosophy and resources
-- [Complete Guide to Open Source](https://www.freecodecamp.org/news/the-definitive-guide-to-contributing-to-open-source-900d5f9f2282/)
+- [Complete Guide to Open Source](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects/) - Comprehensive tutorial
 
 **Finding Projects:**
 - [Good First Issue](https://goodfirstissue.dev/) - Curated beginner-friendly issues
@@ -70,14 +69,14 @@ Curated resources to help you continue your open source journey after your first
 ### 📝 Best Practices
 
 - [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) - The definitive guide
-- [Pull Request Best Practices](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/best-practices-for-pull-requests)
-- [Code Review Best Practices](https://google.github.io/eng-practices/review/) - Google's guide
+- [Pull Request Best Practices](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) - Standardized reference
+- [Code Review Best Practices](https://google.github.io/eng-practices/review/) - Google's official documentation guide
 
 ### 🎓 Case Studies & Stories
 
-- [My First Pull Request](https://www.freecodecamp.org/news/writing-a-good-readme-file/) - Real experiences
-- [Open Source Success Stories](https://opensource.com/tags/developer-stories)
-- [How I Got Into Open Source](https://dev.to/search?q=first%20open%20source) - Dev.to stories
+- [My First Pull Request](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github/) - Introductory training article
+- [Open Source Success Stories](https://opensource.net/) - Developer story index
+- [How I Got Into Open Source](https://dev.to/t/opensource) - Direct dev.to tag index reference
 
 ---
 
@@ -92,7 +91,7 @@ Curated resources to help you continue your open source journey after your first
 
 **Reference Sheets:**
 - [Command Line Cheat Sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/) - Common commands
-- [Linux Commands](https://www.guru99.com/linux-commands-cheat-sheet.html) - Comprehensive guide
+- [Linux Commands Cheat Sheet](https://www.guru99.com/linux-commands-cheat-sheet.html) - Standardized reference routing
 
 ---
 
@@ -101,20 +100,20 @@ Curated resources to help you continue your open source journey after your first
 ### 🌱 Beginner-Friendly Repositories
 
 **Similar to This Project:**
-- [First Contributions](https://github.com/firstcontributions/first-contributions) - Add your name
+- [First Contributions Repo](https://github.com/firstcontributions/first-contributions) - Add your name
 - [Contribute to This Project](https://github.com/Syknapse/Contribute-To-This-Project) - Build a contributor card
 - [Hello Open Source](https://github.com/mazipan/hello-open-source) - Create a profile page
 
 **Next-Level Projects:**
 - [Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners) - Curated list
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - Always has good first issues
-- [Open Source Friday](https://opensourcefriday.com/) - Weekly contribution event
+- [Open Source Friday](https://github.com/github/opensourcefriday) - Maintained repository home page
 
 ### 🏆 Gamification & Challenges
 
-- [Hacktoberfest](https://hacktoberfest.com/) - Annual October event (free t-shirt!)
+- [Hacktoberfest](https://hacktoberfest.com/) - Annual October event
 - [24 Pull Requests](https://24pullrequests.com/) - December coding challenge
-- [Google Summer of Code](https://summerofcode.withgoogle.com/) - Paid internship program
+- [Google Summer of Code](https://summerofcode.withgoogle.com/) - Paid student mentorship program
 
 ---
 
@@ -124,13 +123,13 @@ Curated resources to help you continue your open source journey after your first
 
 **Forums & Q&A:**
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/git) - Technical questions
-- [GitHub Community](https://github.community/) - Official GitHub forum
+- [GitHub Community Support](https://github.com/orgs/community/discussions) - Official discussions forum
 - [Dev.to](https://dev.to/) - Developer blogging platform
 
 **Chat Communities:**
 - [freeCodeCamp Forum](https://forum.freecodecamp.org/) - Super helpful community
-- [r/learnprogramming](https://reddit.com/r/learnprogramming) - Beginner-friendly subreddit
-- [r/opensource](https://reddit.com/r/opensource) - Open source discussions
+- [r/learnprogramming](https://www.reddit.com/r/learnprogramming/) - Structured coding forum
+- [r/opensource](https://www.reddit.com/r/opensource/) - Open source discussions
 
 **Discord Servers:**
 - [The Programmer's Hangout](https://discord.gg/programming) - Large programming community
@@ -141,8 +140,8 @@ Curated resources to help you continue your open source journey after your first
 
 - [Meetup.com](https://www.meetup.com/) - Search for local coding groups
 - [GitHub Campus Experts](https://education.github.com/experts) - Student communities
-- [Women Who Code](https://www.womenwhocode.com/)
-- [Dev.to Local Communities](https://dev.to/listings/community)
+- [Women Who Code](https://github.com/WomenWhoCode) - Archive resource repository
+- [Dev.to Listings](https://dev.to/listings) - Operational community board
 
 ---
 
@@ -153,7 +152,7 @@ Curated resources to help you continue your open source journey after your first
 **Git Deep Dives:**
 - [Advanced Git](https://www.atlassian.com/git/tutorials/advanced-overview) - Atlassian tutorials
 - [Git Internals](https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain) - How Git really works
-- [Think Like a Git](http://think-like-a-git.net/) - Understanding Git's graph structure
+- [Think Like a Git](https://think-like-a-git.net/) - Git mental models reference
 
 **Contributing to Larger Projects:**
 - [Open Source Guides](https://opensource.guide/) - From GitHub
@@ -171,14 +170,14 @@ Curated resources to help you continue your open source journey after your first
 
 - [Pro Git](https://git-scm.com/book/en/v2) - The definitive Git book
 - [Open Source Guides](https://opensource.guide/) - From GitHub (web-based)
-- [Think Like a Git](http://think-like-a-git.net/) - Online book
+- [Think Like a Git Book](https://think-like-a-git.net/) - Online book version
 
 ---
 
 ## 🎥 YouTube Channels
 
 **General Programming & Open Source:**
-- [freeCodeCamp](https://www.youtube.com/c/Freecodecamp) - Full courses
+- [freeCodeCamp Channel](https://www.youtube.com/c/Freecodecamp) - Full courses
 - [Traversy Media](https://www.youtube.com/c/TraversyMedia) - Web development
 - [The Coding Train](https://www.youtube.com/c/TheCodingTrain) - Fun, creative coding
 - [Fireship](https://www.youtube.com/c/Fireship) - Quick tutorials and explanations
@@ -207,12 +206,12 @@ Curated resources to help you continue your open source journey after your first
 
 **Track Your Contributions:**
 - [Your GitHub Profile](https://github.com/YOUR-USERNAME) - Shows your contribution graph
-- [GitHub Wrapped](https://wrapped.run/) - Year in review
-- [Git Awards](http://git-awards.com/) - Rank by contributions
+- [GitHub Star History](https://star-history.com/) - Repository metric tracker
+- [Open Source Agenda](https://www.opensourceagenda.com/) - Developer analytics index
 
 **Badges & Achievements:**
 - [Shields.io](https://shields.io/) - Create badges for your README
-- [Profile Badges](https://dev.to/github/the-github-profile-readme-made-easy-3lf5)
+- [Profile Badges Tutorial](https://github.com/alexandresanlim/Badges4-README.md-Profile) - Directory of formatting shortcuts
 
 ---
 
@@ -221,7 +220,7 @@ Curated resources to help you continue your open source journey after your first
 ### Path 1: Complete Beginner
 1. ✅ Complete this project (Good First Issue)
 2. Complete [First Contributions](https://github.com/firstcontributions/first-contributions)
-3. Take [GitHub Learning Lab](https://lab.github.com/) courses
+3. Take [GitHub Skills](https://skills.github.com/) courses
 4. Find a `good first issue` in a project you use
 5. Make your first "real" contribution!
 
@@ -244,14 +243,14 @@ Curated resources to help you continue your open source journey after your first
 ## 🎓 Courses & Tutorials
 
 **Free Courses:**
-- [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) - GitHub Learning Lab
+- [Introduction to GitHub Skills](https://skills.github.com/) - Interactive learning courses
 - [Git & GitHub Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk) - freeCodeCamp
 - [Version Control with Git](https://www.coursera.org/learn/version-control-with-git) - Coursera (audit for free)
 
-**Paid Courses (Often Worth It):**
+**Paid Courses:**
 - [The Git & GitHub Bootcamp](https://www.udemy.com/course/git-and-github-bootcamp/) - Udemy
-- [Mastering Git](https://www.pluralsight.com/courses/mastering-git) - Pluralsight
-- [Advanced Git](https://frontendmasters.com/courses/git-in-depth/) - Frontend Masters
+- [Git Learning Paths](https://www.pluralsight.com/search?q=git) - Comprehensive learning tracks
+- [Advanced Git Guide](https://frontendmasters.com/courses/git-in-depth/) - Frontend Masters
 
 ---
 
