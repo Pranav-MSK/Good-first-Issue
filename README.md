@@ -64,14 +64,15 @@ Follow the guide and come back here once your contribution is merged!
 
 **These amazing people have completed their first contribution!** 🎯
 
-- [Adit](https://github.com/adityarathore17112002-rgb)
-- [Adithya S](https://github.com/Aditya-SRK)
-- [Aditya Singh Rathore](https://github.com/Adez017)
-- [Janvee](https://github.com/Janvee31)
-- [Mudradi Pranavi](https://github.com/Pranavi-1125)
-- [Rita Huang](https://github.com/yuhruh)
-- [Yash Singhal](https://github.com/yashsinghal1234)
-- [Parth Bhuptani](https://github.com/ParthBhuptani)
+> 🏆 We now have a tiered **Hall of Fame**! Contributors are ranked by total merged PRs:
+> 
+> | Tier | Badge | PRs Required |
+> |------|-------|--------------|
+> | Champion | 🥇 | 5+ PRs |
+> | Regular | 🥈 | 2–4 PRs |
+> | First Timer | 🥉 | 1 PR |
+> 
+> 👉 **[View the full Contributors Hall of Fame](CONTRIBUTORS.md)**
 
 _Your name will appear here once your PR is merged!_
 
