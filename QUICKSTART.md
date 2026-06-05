@@ -29,7 +29,7 @@ Click the **"Fork"** button at the top right of this repository page.
 ### 2. Clone Your Fork
 
 ```bash
-git clone [https://github.com/YOUR-USERNAME/Good-first-Issue.git](https://github.com/YOUR-USERNAME/Good-first-Issue.git)
+git clone https://github.com/YOUR-USERNAME/Good-first-Issue.git
 cd Good-first-Issue
 
 ```
@@ -122,7 +122,7 @@ Downloading the code to your computer so you can edit it.
 * Clone the repository:
 
 ```bash
-  git clone [https://github.com/YOUR-USERNAME/Good-first-Issue.git](https://github.com/YOUR-USERNAME/Good-first-Issue.git)
+  git clone https://github.com/YOUR-USERNAME/Good-first-Issue.git
 
 ```
 
@@ -285,14 +285,14 @@ You should see your PR with a number (e.g., `#42`).
 **Need more help?**
 → Check `README.md` for detailed step-by-step instructions
 → See `FAQ.md` for common questions
-→ [Open an issue](https://www.google.com/search?q=../../issues) if you're still stuck
+→ [Open an issue](../../issues) if you're still stuck
 
 ---
 
 ## 🎯 What's Next?
 
 * ⭐ Star this repository
-* 📖 Read [RESOURCES.md](https://www.google.com/search?q=RESOURCES.md) to continue learning
+* 📖 Read [RESOURCES.md](RESOURCES.md) to continue learning
 * 🔍 Find your next contribution on [goodfirstissue.dev](https://goodfirstissue.dev)
 * 🤝 Help review other people's PRs
 
