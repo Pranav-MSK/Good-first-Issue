@@ -95,6 +95,7 @@ Follow the guide and come back here once your contribution is merged!
 | [Rita Huang](https://github.com/yuhruh) | 1 |
 | [Yash Singhal](https://github.com/yashsinghal1234) | 1 |
 | [Parth Bhuptani](https://github.com/ParthBhuptani) | 1 |
+| [Pranav M S Krishnan](https://github.com/Pranav-MSK) | |
 <!-- TIMERS-END -->
 
 > 💡 Every merged PR counts — keep contributing to climb the tiers! Full details in [CONTRIBUTORS.md](CONTRIBUTORS.md)
